@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>hello my name is saturo gojo</p>
+    <p id="result"></p>
+    <script type="text/javascript" charset="utf-8">
+      function findMax(){
+        var i;
+        var max=0
+        for( i=0; i <arguments.length;i++) {
+          if (arguments[i]>max){
+            max=arguments[i];
+          }
+        }
+        return max;
+      }
+      document.getElementById("result").innerHTML = findMax(4,5,6,7,8,9,11,12,13,14,16,17,19,1,2,3,10)
+      var value= Math.abs(20);
+      document.write("Demo Test Value:" + value +"<br>")
+      
+      
+      var value= Math.acos(-1);
+      document.write("Demo Test Value:" + value +"<br>")
+      
+      
+      var value= Math.asin(1);
+      document.write("Demo Test Value:" + value +"<br>")
+      
+      
+      var value= Math.atan(.5);
+      document.write("Demo Test Value:" + value +"<br>")
+      
+      
+    </script>
+  </body>
+</html>
